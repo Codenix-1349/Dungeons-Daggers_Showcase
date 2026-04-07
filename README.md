@@ -51,7 +51,7 @@ Full-stack browser RPG built with React, Vite, Node.js, Express, and PostgreSQL,
 
 ## 📌 Overview
 
-Dungeons & Daggers is a full-stack web application for AI-supported solo adventures inspired by the D&D SRD 5.2.1.
+Dungeons & Daggers is a full-stack web application for AI-supported solo adventures inspired by the licence free D&D SRD 5.2.1.
 
 Players can create characters, import adventures, start persistent sessions, and play through browser-based RPG scenarios with AI-supported narration and structured gameplay logic.
 
