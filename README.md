@@ -2,25 +2,57 @@
 
 A browser-based solo RPG that combines classic fantasy roleplaying with structured AI-driven storytelling.
 
-**Dungeons & Daggers** is a full-stack web application focused on one central challenge:
+**Dungeons & Daggers** is a full-stack web application built around one central challenge:
 
-**How do you build an AI-powered adventure experience that feels creative and dynamic, while still remaining structured, consistent, and playable?**
+**How do you create an AI-powered adventure experience that feels creative and dynamic while still remaining structured, consistent, and playable?**
 
 The project combines interactive UI design, game state management, backend functionality, and AI integration into a product-oriented application rather than a simple chatbot demo.
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" title="React" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="40" title="Vite" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" title="Node.js" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" title="Express" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" title="PostgreSQL" />&nbsp;
+
 ---
 
-<img width="552" height="270" alt="Dungeons_Landingpng" src="https://github.com/user-attachments/assets/ec04c207-6005-4823-bff2-a473d0fda888" />
-<img width="246" height="273" alt="Dungeons_AI" src="https://github.com/user-attachments/assets/b97338ae-b951-4ead-972c-7510ca39bbc4" />
-<img width="252" height="249" alt="Dungeons_Hero" src="https://github.com/user-attachments/assets/3eeed6c6-f974-45c7-91ce-d4fdb9c4c1eb" />
-<img width="564" height="278" alt="Dungeons_Spielsitzung" src="https://github.com/user-attachments/assets/c16bf671-4729-456c-b31c-fd7fa1bbb28d" />
+## 📸 Screenshots
 
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/ec04c207-6005-4823-bff2-a473d0fda888"
+           width="320" alt="Landing Page" /><br/>
+      <sub><b>Landing page and project entry point</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/b97338ae-b951-4ead-972c-7510ca39bbc4"
+           width="320" alt="AI Settings" /><br/>
+      <sub><b>AI settings and model configuration</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/3eeed6c6-f974-45c7-91ce-d4fdb9c4c1eb"
+           width="320" alt="Character Creation" /><br/>
+      <sub><b>Character creation and hero management</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/c16bf671-4729-456c-b31c-fd7fa1bbb28d"
+           width="320" alt="Game Session" /><br/>
+      <sub><b>Interactive game session in the browser</b></sub>
+    </td>
+  </tr>
+</table>
+
+---
 
 ## 📌 Overview
 
 Dungeons & Daggers is an interactive solo adventure platform inspired by the **D&D SRD 5.2.1**.
 
-Players can create characters, import adventure content, start and continue sessions, and play through AI-guided adventures directly in the browser.  
+Players can create characters, import adventure content, start and continue sessions, and play through AI-guided adventures directly in the browser.
+
 A major focus of the project is that important game logic and progression are **not left entirely to AI output**. Instead, the application keeps core state and gameplay flow under system control to create a more reliable and scalable experience.
 
 This makes the project especially interesting from both a **technical** and a **product design** perspective.
@@ -29,7 +61,7 @@ This makes the project especially interesting from both a **technical** and a **
 
 ## 🎯 Project Goal
 
-The goal of this project was not simply to build “a fantasy chat app”.
+The goal of this project was not simply to build a fantasy chat app.
 
 Instead, I wanted to explore how AI can be integrated into a real product in a way that is:
 
@@ -39,6 +71,7 @@ Instead, I wanted to explore how AI can be integrated into a real product in a w
 - expandable beyond a prototype
 
 The result is a system that blends:
+
 - interactive frontend development
 - backend-supported account and data handling
 - persistent gameplay data
@@ -92,10 +125,10 @@ What makes Dungeons & Daggers more than a standard AI side project is the attemp
 
 **AI is creative, but products need structure.**
 
-This project addresses that by separating free-form AI narration from the application’s internal logic where needed.  
-That means the platform is built with an awareness that user-facing creativity and system-side reliability must work together.
+This project addresses that by separating free-form AI narration from the application’s internal logic where needed. That means the platform is built with an awareness that user-facing creativity and system-side reliability must work together.
 
 In practical terms, the project is designed around:
+
 - controlled state handling
 - structured progression
 - reproducible gameplay logic
@@ -123,6 +156,7 @@ In practical terms, the project is designed around:
 A key part of the work on this project has been making sure the application is not just impressive at first glance, but also **technically grounded**.
 
 The development focus includes:
+
 - clear separation of frontend, backend, and game/runtime responsibilities
 - controlled integration of AI into the user experience
 - persistence of relevant gameplay data
@@ -171,7 +205,6 @@ With Dungeons & Daggers, I wanted to create a project that shows I can work beyo
 - maintainable implementation
 
 ---
-
 
 ## 📫 Contact
 
