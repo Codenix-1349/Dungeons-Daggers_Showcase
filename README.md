@@ -12,41 +12,10 @@ Full-stack browser RPG built with React, Vite, Node.js, Express, and PostgreSQL,
 
 ## 📸 Screenshots
 
-<table>
-  <tr>
-    <td align="center" valign="top" width="50%">
-      <a href="https://github.com/user-attachments/assets/ec04c207-6005-4823-bff2-a473d0fda888">
-        <img src="https://github.com/user-attachments/assets/ec04c207-6005-4823-bff2-a473d0fda888"
-             width="440" alt="Landing Page" />
-      </a><br/>
-      <sub><b>Landing page</b></sub>
-    </td>
-    <td align="center" valign="top" width="50%">
-      <a href="https://github.com/user-attachments/assets/b97338ae-b951-4ead-972c-7510ca39bbc4">
-        <img src="https://github.com/user-attachments/assets/b97338ae-b951-4ead-972c-7510ca39bbc4"
-             width="440" alt="AI Settings" />
-      </a><br/>
-      <sub><b>AI settings</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top" width="50%">
-      <a href="https://github.com/user-attachments/assets/3eeed6c6-f974-45c7-91ce-d4fdb9c4c1eb">
-        <img src="https://github.com/user-attachments/assets/3eeed6c6-f974-45c7-91ce-d4fdb9c4c1eb"
-             width="440" alt="Character Creation" />
-      </a><br/>
-      <sub><b>Character creation</b></sub>
-    </td>
-    <td align="center" valign="top" width="50%">
-      <a href="https://github.com/user-attachments/assets/c16bf671-4729-456c-b31c-fd7fa1bbb28d">
-        <img src="https://github.com/user-attachments/assets/c16bf671-4729-456c-b31c-fd7fa1bbb28d"
-             width="440" alt="Game Session" />
-      </a><br/>
-      <sub><b>Game session</b></sub>
-    </td>
-  </tr>
-</table>
-
+<img width="1146" height="564" alt="DD_Landing" src="https://github.com/user-attachments/assets/acbc9ffd-e8f1-4a2b-ac70-c64cc0971352" />
+<img width="1146" height="565" alt="DD_Hero" src="https://github.com/user-attachments/assets/11504227-a2ad-4c97-98eb-94ad5c26d167" />
+<img width="1143" height="559" alt="DD_AI" src="https://github.com/user-attachments/assets/b8da76ab-5df0-4cca-920a-75d8de7d3d7a" />
+<img width="1126" height="583" alt="DD_Probe" src="https://github.com/user-attachments/assets/05d54843-cc61-4276-b6fb-e13a34cefc35" />
 ---
 
 ## 📌 Overview
@@ -102,6 +71,7 @@ Players can create characters, import adventures, start persistent sessions, and
 The project already includes a working foundation across frontend, backend, account system, character management, adventure handling, AI integration, and persistent sessions.
 
 ---
+
 
 ## 👨‍💻 Author
 
