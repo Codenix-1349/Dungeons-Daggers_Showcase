@@ -2,11 +2,11 @@
 
 A browser-based solo RPG that combines classic fantasy roleplaying with structured AI-driven storytelling.
 
-**Dungeons & Daggers** is a full-stack web application built around one central challenge:
+**Dungeons & Daggers** is a full-stack web application built around a clear product challenge:
 
-**How do you create an AI-powered adventure experience that feels creative and dynamic while still remaining structured, consistent, and playable?**
+**How do you create an AI-powered adventure experience that feels dynamic and creative while still remaining structured, consistent, and playable?**
 
-The project combines interactive UI design, game state management, backend functionality, and AI integration into a product-oriented application rather than a simple chatbot demo.
+Instead of treating AI as uncontrolled output, the project combines AI narration with system-managed game state, persistent sessions, and rule-based mechanics to create a more reliable player experience.
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" title="React" />&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="40" title="Vite" />&nbsp;
@@ -20,26 +20,34 @@ The project combines interactive UI design, game state management, backend funct
 
 <table>
   <tr>
-    <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/ec04c207-6005-4823-bff2-a473d0fda888"
-           width="320" alt="Landing Page" /><br/>
+    <td align="center" valign="top" width="50%">
+      <a href="https://github.com/user-attachments/assets/ec04c207-6005-4823-bff2-a473d0fda888">
+        <img src="https://github.com/user-attachments/assets/ec04c207-6005-4823-bff2-a473d0fda888"
+             width="440" alt="Landing Page" />
+      </a><br/>
       <sub><b>Landing page and project entry point</b></sub>
     </td>
-    <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/b97338ae-b951-4ead-972c-7510ca39bbc4"
-           width="320" alt="AI Settings" /><br/>
+    <td align="center" valign="top" width="50%">
+      <a href="https://github.com/user-attachments/assets/b97338ae-b951-4ead-972c-7510ca39bbc4">
+        <img src="https://github.com/user-attachments/assets/b97338ae-b951-4ead-972c-7510ca39bbc4"
+             width="440" alt="AI Settings" />
+      </a><br/>
       <sub><b>AI settings and model configuration</b></sub>
     </td>
   </tr>
   <tr>
-    <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/3eeed6c6-f974-45c7-91ce-d4fdb9c4c1eb"
-           width="320" alt="Character Creation" /><br/>
+    <td align="center" valign="top" width="50%">
+      <a href="https://github.com/user-attachments/assets/3eeed6c6-f974-45c7-91ce-d4fdb9c4c1eb">
+        <img src="https://github.com/user-attachments/assets/3eeed6c6-f974-45c7-91ce-d4fdb9c4c1eb"
+             width="440" alt="Character Creation" />
+      </a><br/>
       <sub><b>Character creation and hero management</b></sub>
     </td>
-    <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/c16bf671-4729-456c-b31c-fd7fa1bbb28d"
-           width="320" alt="Game Session" /><br/>
+    <td align="center" valign="top" width="50%">
+      <a href="https://github.com/user-attachments/assets/c16bf671-4729-456c-b31c-fd7fa1bbb28d">
+        <img src="https://github.com/user-attachments/assets/c16bf671-4729-456c-b31c-fd7fa1bbb28d"
+             width="440" alt="Game Session" />
+      </a><br/>
       <sub><b>Interactive game session in the browser</b></sub>
     </td>
   </tr>
@@ -51,88 +59,42 @@ The project combines interactive UI design, game state management, backend funct
 
 Dungeons & Daggers is an interactive solo adventure platform inspired by the **D&D SRD 5.2.1**.
 
-Players can create characters, import adventure content, start and continue sessions, and play through AI-guided adventures directly in the browser.
+Players can create characters, import adventures, start persistent sessions, and play through AI-guided story flows directly in the browser. A core design goal is keeping important gameplay and progression logic under application control instead of delegating everything to model output alone.
 
-A major focus of the project is that important game logic and progression are **not left entirely to AI output**. Instead, the application keeps core state and gameplay flow under system control to create a more reliable and scalable experience.
-
-This makes the project especially interesting from both a **technical** and a **product design** perspective.
+That makes the project more than an AI demo: it is a **product-oriented full-stack application** with real attention to UX, state handling, persistence, and maintainability.
 
 ---
 
-## 🎯 Project Goal
+## ✨ Highlights
 
-The goal of this project was not simply to build a fantasy chat app.
-
-Instead, I wanted to explore how AI can be integrated into a real product in a way that is:
-
-- engaging for the user
-- structurally controlled
-- technically maintainable
-- expandable beyond a prototype
-
-The result is a system that blends:
-
-- interactive frontend development
-- backend-supported account and data handling
-- persistent gameplay data
-- controlled AI integration
-- rule-based RPG mechanics
+- **AI-guided solo adventures** with structured gameplay flow
+- **Character creation and management** with reusable heroes
+- **Adventure import** via PDF and TXT
+- **Persistent sessions** for ongoing play
+- **Combat, checks, progression, and loot handling**
+- **Registration, login, email verification, and password reset**
+- **Backend-supported AI integration** with secure key handling
+- **Tested runtime and logic layers** for more reliable behavior
 
 ---
 
-## ✨ Core Features
+## 🧠 Why this project stands out
 
-### AI-guided solo adventures
-- interactive adventure flow in the browser
-- AI-generated narration inside a controlled gameplay framework
-- emphasis on playable decisions instead of unstructured free chat
+Many AI projects stop at “the model generates text.”
 
-### Character creation and management
-- create and manage multiple playable characters
-- support for classes, races, attributes, inventory, spells, and progression
-- reusable character library for future sessions
+Dungeons & Daggers focuses on a more difficult problem:
 
-### Adventure import
-- upload and manage adventure content via **PDF** or **TXT**
-- imported material can be used as the basis for playable sessions
-- structured foundation for expandable content workflows
+**How do you combine AI flexibility with product reliability?**
 
-### Persistent sessions
-- create, continue, and manage game sessions
-- keep track of progress, scene state, and previous interactions
-- built for continuity instead of one-off AI prompts
+This project addresses that by balancing:
 
-### Combat and checks
-- integrated dice and combat-related mechanics
-- support for checks, enemy encounters, HP changes, XP progression, and loot handling
-- stronger gameplay orientation than a pure narrative AI demo
+- creative AI-driven narration
+- controlled runtime behavior
+- persistent application state
+- rule-based gameplay systems
+- scalable architecture for future expansion
 
-### Account system and backend support
-- registration and login flow
-- email verification and password reset
-- backend routes for characters, adventures, sessions, and chat handling
-
-### Secure AI key handling
-- OpenRouter integration for model access
-- account-based mode supports **server-side encrypted API key storage**
-- model selection and pricing awareness built into the settings flow
-
----
-
-## 🧠 What makes this project interesting
-
-What makes Dungeons & Daggers more than a standard AI side project is the attempt to solve a real product problem:
-
-**AI is creative, but products need structure.**
-
-This project addresses that by separating free-form AI narration from the application’s internal logic where needed. That means the platform is built with an awareness that user-facing creativity and system-side reliability must work together.
-
-In practical terms, the project is designed around:
-
-- controlled state handling
-- structured progression
-- reproducible gameplay logic
-- maintainable architecture for future expansion
+That balance is what makes the project especially relevant from both a **technical** and a **product design** perspective.
 
 ---
 
@@ -145,51 +107,32 @@ In practical terms, the project is designed around:
 | Database | PostgreSQL |
 | AI Integration | OpenRouter |
 | File Processing | PDF.js, TXT import |
-| Authentication | JWT, account-based auth flow |
-| Security | encrypted API key storage, protected backend routes |
+| Authentication | JWT-based account flow |
 | Testing | Vitest |
-
----
-
-## 🧪 Development Focus
-
-A key part of the work on this project has been making sure the application is not just impressive at first glance, but also **technically grounded**.
-
-The development focus includes:
-
-- clear separation of frontend, backend, and game/runtime responsibilities
-- controlled integration of AI into the user experience
-- persistence of relevant gameplay data
-- test coverage for important runtime and logic behavior
-- iterative architecture work to keep the project extensible
-
-This was especially important because AI-heavy projects often become fragile when too much logic is delegated to model output alone.
 
 ---
 
 ## 🎯 What this project demonstrates
 
-From a recruiter perspective, this project demonstrates more than the ability to build screens or connect an API.
-
-It shows experience with:
+From a recruiter perspective, this project demonstrates experience with:
 
 - **full-stack web development**
 - **interactive product design**
-- **state-heavy application logic**
+- **complex state-driven UI flows**
 - **AI integration in a real use case**
-- **backend-supported account and data workflows**
-- **security-minded implementation decisions**
+- **backend-supported user and session workflows**
+- **security-conscious implementation**
 - **iterative architecture and testing**
 
-In other words, this project reflects not only coding ability, but also the ability to think about how a system should behave as a product.
+In other words, it shows not only coding ability, but also the ability to think in terms of **product behavior, system design, and long-term maintainability**.
 
 ---
 
 ## 📈 Current Status
 
-Dungeons & Daggers is an actively developed project with a working foundation across frontend, backend, character management, adventure handling, AI integration, and persistent gameplay sessions.
+The project already includes a working foundation across frontend, backend, account flows, character management, adventure handling, AI integration, and persistent gameplay sessions.
 
-The project is being shaped toward a more polished and publishable product experience over time, with ongoing work around runtime consistency, interaction handling, and long-term scalability.
+It is being iteratively refined toward a more polished and publishable product experience.
 
 ---
 
